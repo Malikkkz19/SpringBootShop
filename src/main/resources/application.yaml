@@ -1,0 +1,12 @@
+server:
+  port: 5432
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_shop
+    username: postgres
+    password: Malikka4ok
+
+  jpa:
+    hibernate:
+      ddl-auto: update
